@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --animate-speed: 1s;
+}
+body {
+    background: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    font-family: 'Kaushan Script', cursive; 
+    background: black;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+header span {
+    color: #db2639;
+}
+.showcase img {
+    width: 350px; 
+    height: 350px;
+}
+.showcase img:hover {
+    box-shadow:lime 0 0 24em;
+   
+}
+.showcase-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 1em;
+    color: white;
+}
+/* Margin left media query */
+img {
+    display: flex;
+    border-radius: 50%;
+    max-width: 400px;
+    height: auto;
+    animation: rotation 4s  infinite 1s alternate-reverse;
+    animation-direction:alternate-reverse;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(720deg);
+    }
+  }
+  
+img {
+    max-width: 400px;
+    height: auto;
+    
+    
+}
+
+
+
+.icons a {
+    color: #fff;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+a:hover {
+    color:#db2639 ;
+    transform: scale(1.2);
+}
+
+body {
+    background: black;
+}
+.showcase-container {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-family: 'Kaushan Script', cursive;  
+    transform: translatey(-2400px) translateX(2400px);
+    animation: pic var(--animate-speed) forwards ease-out;
+}
+@keyframes pic {
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes pic {
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  
