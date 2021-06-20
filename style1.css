@@ -27,8 +27,8 @@ header span {
     color: #db2639;
 }
 .showcase img {
-    width: 325px; 
-    height: 325px;
+    width: 300px; 
+    height: 300px;
 }
 .showcase img:hover {
     box-shadow:lime 0 0 24em;
@@ -62,7 +62,7 @@ img {
   }
   
 img {
-    max-width: 400px;
+    max-width: 300px;
     height: auto;
     
     
@@ -81,7 +81,7 @@ a{
 }
 a:hover {
     color:#db2639 ;
-    transform: scale(1.1);
+    
 }
 
 body {
