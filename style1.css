@@ -47,7 +47,7 @@ header span {
 img {
     display: flex;
     border-radius: 50%;
-    max-width: 400px;
+    max-width: 325px;
     height: auto;
     animation: rotation 4s  infinite 1s alternate-reverse;
     animation-direction:alternate-reverse;
